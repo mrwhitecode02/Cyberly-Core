@@ -1,0 +1,44 @@
+/* by special or default features*/
+
+:root {
+    --background-color: blue;
+}
+
+
+/* by tagname */
+
+
+
+
+body {
+    background-color: #B33DDB;
+}
+
+
+/* by clasname */
+
+.element_priory {
+    background: var(--background-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: static;
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    color: #25DBD1;
+
+    
+    
+}
+
+
+
+
+
+/* by id */
